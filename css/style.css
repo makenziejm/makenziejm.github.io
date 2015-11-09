@@ -1,0 +1,106 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100%;
+  text-align: right;
+  font-family: Coustard, serif;
+  background-color: #99E6E6;
+  font-size: 16px;
+  margin-top: 0;
+  border-bottom:2px solid #d0d0d0;
+  line-height: 80px;
+}
+header ul{
+  padding: 0;
+  margin:0;
+}
+header li {
+  padding: 30px 15px;
+  display: inline;
+  vertical-align: middle;
+}
+#about_img {
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+  float: left;
+  margin: 20px 50px;
+}
+#current_pg{
+  font-size: 36px;
+}
+h1{
+  font-family: Satisfy, cursive;
+  margin-left: 50px;
+  font-size: 50px;
+}
+h2 {
+  font-family: Satisfy, cursive;
+  margin-left: 20px;
+  font-size: 36px
+}
+.res1{
+  font-family: Coustard, serif;
+  margin-left: 50px;
+}
+.res2 {
+  font-family: Coustard, serif;
+  margin-left: 20px;
+}
+.main p {
+  font-family: Coustard, serif;
+  font-size: 16px;
+  margin-top: 227px;
+}
+.main {
+  max-width: 900px;
+  margin: 0 auto 150px 100px;
+  overflow: hidden;
+}
+.main div {
+  float: left;
+  margin-right: 30px;
+}
+.note_txt{
+  font-family: Coustard, serif;
+  font-size: 16px;
+  max-width: 800px;
+  margin: auto;
+}
+.note{
+  height: 300px;
+  width: auto;
+  padding: 20px;
+  display: inline;
+}
+.note_lg{
+  height: 400px;
+  width: auto;
+  padding: 20px;
+  display: inline;
+}
+.note_pano {
+  padding: 20px;
+  width:80%;
+}
+header a:link{
+  text-decoration: none;
+  color:black;
+}
+header a:visited {
+  text-decoration: none;
+  color: black;
+}
+header a:hover {
+  text-decoration: none;
+  color: grey;
+}
+footer {
+  font-family: Coustard, serif;
+  font-size: 12px;
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid #d0d0d0;
+}
