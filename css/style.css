@@ -1,6 +1,7 @@
 html, body{
   padding: 0;
   margin: 0;
+  font-family: Coustard, serif;
 }
 header {
   width: 100%;
@@ -67,23 +68,33 @@ h2 {
   font-family: Coustard, serif;
   font-size: 16px;
   max-width: 800px;
-  margin: auto;
+}
+#resume h2{
+  margin-bottom: 0
+}
+#contact .container{
+  width: 50%;
+  margin: 40px auto 400px auto;
 }
 .note{
   height: 300px;
   width: auto;
-  padding: 20px;
+  padding: 10px;
   display: inline;
 }
 .note_lg{
   height: 400px;
   width: auto;
-  padding: 20px;
+  padding: 10px;
   display: inline;
 }
 .note_pano {
   padding: 20px;
   width:80%;
+}
+.container{
+  margin: 0 auto;
+  width: 80%;
 }
 header a:link{
   text-decoration: none;
@@ -101,6 +112,6 @@ footer {
   font-family: Coustard, serif;
   font-size: 12px;
   width: 100%;
-  padding: 20px 0;
+  padding: 20px 10px;
   border-top: 1px solid #d0d0d0;
 }
